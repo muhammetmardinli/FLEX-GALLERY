@@ -1,0 +1,57 @@
+
+.ot {
+    display: none;
+}
+
+.et {
+    display: none;
+}
+
+.panel {
+    box-sizing: border-box;
+    width: 20%;
+    height: 100vh;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    transition: flex 0.7s ease;
+    font-size: 1.65rem;
+    
+}
+
+.panel div {
+    margin-top: 100%;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.panel:hover .ot {
+    display: block;
+    margin-top: 50%;
+}
+
+.panel:hover .im {
+    margin-top: 20%;
+}
+
+.panel:hover .et {
+    margin: 0;
+    display: block;
+    margin-top: 20%;
+}
+
+.panel:hover {
+    box-sizing: border-box;
+    height: 100vh;
+    flex: 3;
+    text-align: center;
+    background-color: saddlebrown;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
